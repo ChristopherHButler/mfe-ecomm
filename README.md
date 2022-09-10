@@ -4,7 +4,7 @@ Microfrontend Proof of Concept
 
 ## Subprojects - Products
 
-This file describes how things work in detail, taking an incremental development process followed throughout the course.
+This file describes how things work in detail, taking an incremental development process followed throughout the [udemy course by stephen grider](https://www.udemy.com/course/microfrontend-course/learn)
 
 ### Goals
 
