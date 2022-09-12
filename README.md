@@ -264,9 +264,11 @@ There are also some notes above in the code snippet to explain each option.
 
  - `remotes` tells webpack where to load a module from.
 
+ - Entries are structured like this: `{key}: {name}@domain/path/to/{file}`
+
  - the `key` for a remote entry determines how you will later write your import statements. import '`products`/ProductsIndex';
 
- - the `value` is comprised of two parts: the part before the `@` symbol and the part after.
+ - the `value` is comprised of two parts: the `name` part before the `@` symbol and the part after.
    - the part before MUST match the name property of the remote.
    - the part after is a URL that tells webpack where to fetch the module from.
 

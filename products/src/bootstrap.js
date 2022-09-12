@@ -13,7 +13,7 @@ const mount = (el) => {
 
 // Context #1 - Running in development
 if (process.env.NODE_ENV === 'development') {
-  const el = document.querySelector('dev-products');
+  const el = document.querySelector('#dev-products');
 
   // we are assuming our container app does NOT have an html element called 'dev-products'.
   // we are probably running in isolation
